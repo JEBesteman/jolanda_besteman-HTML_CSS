@@ -94,10 +94,11 @@ main {
 .main-box11 {
   grid-area: w;
 }
+
 aside {
   background-color: #99ffff;
   font-size: 12px;
-  line-height: 2em;
+  line-height: 16px;
   padding: 15px;
   box-sizing: border-box;
   grid-area: a;
@@ -249,5 +250,9 @@ button {
 
   .aside-box2 {
     padding-top: 30px;
+  }
+  
+  aside {
+    line-height: 2em;
   }
 }
