@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Eindopdracht HTML_CSS Mentale uitdaging hond</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header-flex">
+            <h1>Mentale uitdaging voor de hond</h1>
+            <hr>
+        </header>
+        <nav>
+            <ul class="nav-flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="uitdagingen.html">Uitdagingen</a></li>
+                <li><a href="about.html">Over mij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="main-flex">
+            <article>
+                <section>
+                    <div class="contact-form-box1">
+                        <h2>Contact</h2>
+                        <p>Heb je nog vragen of tips/opmerkingen? Vul dan aub het onderstaande contactformulier in.
+                        </p>
+                    </div>
+                    <div class="contact-form-box2">
+                        <form name="contact" method="POST" data-netlify="true">
+                            <div>
+                                <label for="name">Naam</label>
+                                <input type="text" id="name" name="naam" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div>
+                                <label for="">Vragen of tips</label>
+                                <textarea id="vragen" name="vragen"></textarea>
+                            </div>
+                            <br>
+                            <hr>
+                            <br>
+                            <div>
+                                <div>Heeft u een hond?</div>
+                                <label for="ja">ja</label>
+                                <input type="radio" id="ja" name="hond" value="ja">
+                            </div>
+                            <div>
+                                <label for="nee">nee</label>
+                                <input type="radio" id="nee" name="hond" value="nee">
+                            </div>
+                            <div>
+                                <label for="ras">Zo ja, welk ras?</label>
+                                <input type="text" id="ras" name="ras">
+                            </div>
+                            <div>
+                                <label for="fase">In welke levensfase zit de hond</label>
+                                <select id="fase" name="fase">
+                                    <option value="pup">Pup</option>
+                                    <option value="puber">Puber</option>
+                                    <option value="volwassen">Volwassen</option>
+                                    <option value="bejaard">Bejaard</option>
+                                </select>
+                            </div>
+                            <div>
+                                <div>Wat voor mentale uitdagingen doet u zelf met de hond?</div>
+                                <div>
+                                    <label for="agility">Agility</label>
+                                    <input type="checkbox" id="agility" name="agility">
+                                </div>
+                                <div>
+                                    <label for="obedience">Obedience</label>
+                                    <input type="checkbox" id="obedience" name="obedience">
+                                </div>
+                                <div>
+                                    <label for="speuren">Speuren</label>
+                                    <input type="checkbox" id="speuren" name="speuren">
+                                </div>
+                                <div>
+                                    <label for="speeltje">Speeltje zoeken</label>
+                                    <input type="checkbox" id="speeltje" name="speeltje">
+                                </div>
+                                <div>
+                                    <label for="denkpuzzel">Denkpuzzel</label>
+                                    <input type="checkbox" id="denkpuzzel" name="denkpuzzel">
+                                </div>
+                                <div>
+                                    <label for="voerbal">Voerbal</label>
+                                    <input type="checkbox" id="voerbal" name="voerbal">
+                                </div>
+                                <div>
+                                    <label for="snuffelkleed">Snuffelkleed</label>
+                                    <input type="checkbox" id="snuffelkleed" name="snuffelkleed">
+                                </div>
+                                <div>
+                                    <label for="anders">Anders</label>
+                                    <input type="checkbox" id="anders" name="anders">
+                                    <label for="anders2">namelijk:</label>
+                                    <input type="text" id="anders2" name="anders">
+                                </div>
+                            </div>
+                            <br>
+                            <button type="reset">Reset</button>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <aside class="aside-flex">
+            <div class="aside-box1">
+                <h4><em>Weetje?</em></h3>
+                <p><em>Een hond slaapt gemiddeld 12-14 uur om alles te kunnen verwerken. En ja, ze dromen net
+                        als mensen!</em></p>
+            </div>
+            <div class="aside-box2">
+                <img src="images/slapende_Chester.jpeg" alt="aussiedoodle die slaapt in zijn mand">
+            </div>
+        </aside>
+        <footer class="footer-flex">
+            <div class="footer-box1">
+                <h4>Copyright 2021 Jolanda Besteman</h2>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
