@@ -97,6 +97,7 @@ main {
 aside {
   background-color: #99ffff;
   font-size: 12px;
+  line-height: 2em;
   padding: 15px;
   box-sizing: border-box;
   grid-area: a;
